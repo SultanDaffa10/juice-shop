@@ -1,0 +1,11 @@
+# Snyk policy file
+version: v1.0.0
+ignore:
+  'SNYK-JS-DECOMPRESS-20254116':
+    - '*':
+        reason: 'No patch available, dev-only tool'
+        expires: 2026-12-31
+  'SNYK-JS-MARSDB-480405':
+    - '*':
+        reason: 'Dev-only dependency, tidak masuk production bundle'
+        expires: 2026-12-31
